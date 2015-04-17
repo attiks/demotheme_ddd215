@@ -1,0 +1,52 @@
+// Import external libraries.
+@import "compass";
+@import "breakpoint";
+
+$breakpoint-force-media-all: true;
+
+// Core - contrib css.
+.field--label-inline .field__label,
+.field--label-inline .field__items {
+  float: left;
+}
+
+html {
+  -font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*
+@font-face {
+  font-family: 'montserratbold';
+  src: url("/sites/all/themes/custom/bbw_contest15/fonts/Montserrat-Bold-webfont.woff2") format("woff2"), url("/sites/all/themes/custom/bbw_contest15/fonts/Montserrat-Bold-webfont.woff") format("woff"), url("/sites/all/themes/custom/bbw_contest15/fonts/Montserrat-Bold-webfont.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'montserratregular';
+  src: url("/sites/all/themes/custom/bbw_contest15/fonts/Montserrat-Regular-webfont.woff2") format("woff2"), url("/sites/all/themes/custom/bbw_contest15/fonts/Montserrat-Regular-webfont.woff") format("woff"), url("/sites/all/themes/custom/bbw_contest15/fonts/Montserrat-Regular-webfont.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+// Default fonts.
+html {
+  font-family: sans-serif;
+  &.fonts-loaded {
+    font-family: "montserratregular", sans-serif;
+    h1 {
+      font-family: 'montserratbold';
+    }
+  }
+}
+*/
+
+@import "mixins/mixins";
+@import "variables/variables";
+@import "abstractions/abstractions";
+@import "base/base";
+@import "components/components";

@@ -1,0 +1,18 @@
+{
+  "photobox": {
+    "urls": [
+      "http://demo.dev.aegir.local",
+      "http://demo.dev.aegir.local/node/1"
+    ]
+  },
+  "phantomas": {
+    "url": "http://demo.dev.aegir.local"
+  },
+  "webpagetest": {
+    "apikey": "APIKEY",
+    "url": "http://demo.dev.aegir.local"
+  },
+  "baseurl": "http://demo.dev.aegir.local",
+  "critical1": "http://demo.dev.aegir.local",
+  "critical2": "http://demo.dev.aegir.local/node/1"
+}

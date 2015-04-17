@@ -1,0 +1,16 @@
+{
+  "name": "demotheme",
+  "version": "1.0.0",
+  "dependencies": {
+    "respond": "fubhy/respond",
+    "selectivizr": "fubhy/selectivizr",
+    "html5shiv": "fubhy/html5shiv",
+    "matchmedia": "fubhy/matchmedia",
+    "pie": "fubhy/pie",
+  },
+  "devDependencies": {
+    "breakpoint-sass": "~2.5.0",
+    "compass-mixins": "~1.0.2",
+    "swipe-js": "~2.0.6"
+  }
+}
