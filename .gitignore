@@ -1,5 +1,8 @@
 node_modules
 libraries
+photobox
+devperf
+phantomas
 
 .sass-cache
 *.bower.json

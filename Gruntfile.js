@@ -229,7 +229,7 @@ module.exports = function (grunt) {
     },
 
     photobox: {
-      sas: {
+      run: {
         options: {
           indexPath: 'photobox/',
           screenSizes: [ '960', '350', '1200' ],
@@ -241,7 +241,7 @@ module.exports = function (grunt) {
     },
 
     phantomas: {
-      sas: {
+      run: {
         options: {
           indexPath: './phantomas/',
           options: {
@@ -418,12 +418,9 @@ module.exports = function (grunt) {
   ]);
 
   grunt.registerTask('speedtest', [
-    'uglify:dist',
-    'compass:dist',
-    'autoprefixer:dist',
-    'cssmin:dist',
-    'replace:dist',
-    'devperf'
+    'build',
+    'devperf',
+    'yslow'
   ]);
 
   grunt.registerTask('test', [

@@ -17,6 +17,7 @@
 */
   w.Promise
     // .all([fontMontserrat400.check(), fontMontserrat700.check()])
+    .all([])
     .then(function () {
       w.document.documentElement.className += ' fonts-loaded';
       cookie('fonts-loaded', 30);
