@@ -1,7 +1,8 @@
 # Install
 
-- Clone repo
 - Make sure you have omega-7.x-4.x installed
+- Create directory sites/all/themes/custom
+- Clone repo: git clone --branch 7.x-1.x git@github.com:attiks/demotheme_ddd215.git MYTHEME
 - Run ./rename.sh MYTHEME
 - Make sure you have npm installed
 - Run ./update.sh
