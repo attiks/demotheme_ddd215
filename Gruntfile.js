@@ -107,7 +107,8 @@ module.exports = function (grunt) {
           'css/demotheme.styles.css': 'sass/demotheme.styles.scss',
           'css/demotheme.hacks.css': 'sass/demotheme.hacks.scss',
           'css/demotheme.no-query.css': 'sass/demotheme.no-query.scss',
-          'css/demotheme.normalize.css': 'sass/demotheme.normalize.scss'
+          'css/demotheme.normalize.css': 'sass/demotheme.normalize.scss',
+          'css/layouts/basic/basic.layout.css': 'sass/layouts/basic/basic.layout.scss'
         }
       }
     },
@@ -143,6 +144,7 @@ module.exports = function (grunt) {
         },
         files: {
           'css/site.css': [
+            'css/layouts/basic/basic.layout.css',
             'jslib/responsive-carousel/responsive-carousel.css',
             'jslib/responsive-carousel/responsive-carousel.slide.css',
             '../../../modules/contrib/youtube/css/youtube.css',
