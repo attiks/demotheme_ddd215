@@ -437,4 +437,6 @@ module.exports = function (grunt) {
     'cssmin'
   ]);
 
+  grunt.registerTask('default', ['watch']);
+
 };
