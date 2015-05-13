@@ -7,11 +7,8 @@ module.exports = {
     },
     files: {
       'css/site.css': [
-        'css/layouts/**/*.css',
-        'jslib/**/*.css',
         '<%= local.contrib.css %>',
-        'css/demotheme.normalize.css',
-        'css/demotheme.styles.css'
+        '<%= local.custom.css %>',
       ],
       'css/critical-min.css': [
         'css/critical.css'

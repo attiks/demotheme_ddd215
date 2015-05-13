@@ -29,7 +29,7 @@ module.exports = {
     files: {
       'js/script.min.js': [
         '<%= local.contrib.js %>',
-        'js/demotheme.behaviors.js'
+        '<%= local.custom.js %>',
       ]
     }
   }
