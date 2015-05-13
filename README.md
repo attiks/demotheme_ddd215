@@ -6,6 +6,7 @@
 - Run ./rename.sh MYTHEME
 - Make sure you have npm installed
 - Run ./update.sh
+- Copy settings.json.example to settings.json
 - Run grunt build
 - drush cc all
 
@@ -14,6 +15,10 @@
 - Run ./update.sh
 - Run grunt build
 - drush cc all
+
+# Develop using watch
+
+- Run grunt
 
 # Change server settings
 
