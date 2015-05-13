@@ -1,4 +1,4 @@
-<?php if ($GLOBALS['needforspeed']): ?> 
+<?php if (isset($GLOBALS['needforspeed']) && $GLOBALS['needforspeed']): ?> 
   <style>
     <?php include 'sites/all/themes/custom/demotheme/css/critical-min.css'; ?>
   </style>
