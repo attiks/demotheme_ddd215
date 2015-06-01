@@ -8,6 +8,7 @@ sed -i 's/demotheme/'"$1"'/g' package.json
 sed -i 's/demotheme/'"$1"'/g' demotheme.info
 sed -i 's/demotheme/'"$1"'/g' needforspeed_css.php
 sed -i 's/demotheme/'"$1"'/g' settings.json.example
+sed -i 's/demotheme/'"$1"'/g' Gruntfile.js
 
 rename 's/demotheme/'"$1"'/' demotheme.info
 rename 's/demotheme/'"$1"'/' js/*
