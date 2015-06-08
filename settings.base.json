@@ -1,0 +1,43 @@
+{
+  "hostname": "localhost",
+  "url": "http://localhost",
+  "logo_source": "logo_source.png",
+  "contrib": {
+    "css": [
+    ],
+    "js": [
+    ]
+  },
+  "custom": {
+    "css": [
+      "css/layouts/**/*.css",
+      "jslib/**/*.css",
+      "css/<%= package.name %>.normalize.css",
+      "css/<%= package.name %>.styles.css"
+    ],
+    "js": [
+      "js/<%= package.name %>.behaviors.js"
+    ]
+  },
+  "sass": {
+    "includes": [
+      "libraries/compass-mixins/lib",
+      "libraries/compass-mixins/lib/compass",
+      "libraries/breakpoint-sass/stylesheets"
+    ],
+    "files": {
+      "css/<%= package.name %>.styles.css": "sass/<%= package.name %>.styles.scss",
+      "css/<%= package.name %>.hacks.css": "sass/<%= package.name %>.hacks.scss",
+      "css/<%= package.name %>.no-query.css": "sass/<%= package.name %>.no-query.scss",
+      "css/<%= package.name %>.normalize.css": "sass/<%= package.name %>.normalize.scss",
+      "css/layouts/basic/basic.layout.css": "sass/layouts/basic/basic.layout.scss"
+    }
+  },
+  "pagespeed_paths": ["/"],
+  "photobox": {
+    "urls": ["http://localhost"]
+  },
+  "phantomas": {
+    "url": "http://localhost"
+  }
+}
