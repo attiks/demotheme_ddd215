@@ -21,9 +21,9 @@
   },
   "sass": {
     "includes": [
-      "libraries/compass-mixins/lib",
-      "libraries/compass-mixins/lib/compass",
-      "libraries/breakpoint-sass/stylesheets"
+      "node_modules/compass-mixins/lib",
+      "node_modules/compass-mixins/lib/compass",
+      "node_modules/breakpoint-sass/stylesheets/"
     ],
     "files": {
       "css/<%= package.name %>.styles.css": "sass/<%= package.name %>.styles.scss",
