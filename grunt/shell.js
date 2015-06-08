@@ -1,7 +1,10 @@
 /* global module */
 module.exports = {
-  all: {
-    command: 'drush cache-clear theme-registry'
+  cleartheme: {
+    command: 'drush <%= local.drush.alias %> cache-clear theme-registry'
+  },
+  clearcache: {
+    command: 'drush <%= local.drush.alias %> cache-clear all'
   },
   cleancritical: {
     // Remove inlined svg or images.

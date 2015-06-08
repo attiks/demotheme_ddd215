@@ -13,7 +13,7 @@ module.exports = {
   },
   registry: {
     files: ['*.info', '{,**}/*.{php,inc}'],
-    tasks: ['shell'],
+    tasks: ['shell:cleartheme'],
     options: {
       livereload: false
     }
