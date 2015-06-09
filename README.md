@@ -6,9 +6,45 @@
 - Run ./rename.sh MYTHEME
 - Make sure you have npm installed
 - Run ./update.sh
-- Copy settings.json.example to settings.json
+- Optional: Create settings.common.json
+- Optional: Create settings.local.json
 - Run grunt build
 - drush cc all
+
+# Settings
+
+## settings.base.json
+
+This file contains the base settings, you should not edit this file
+
+## settings.common.json
+
+This file contains common settings for everybody working on this theme.  
+This file should be checked in into git so it is shared by everybody.
+
+This file can for example contains API keys.
+
+## settings.local.json
+
+This file contains settings specific for your environment, like for instance
+the drush alias to use or the local domain names, this file should not be checked in into git.
+
+```
+{
+  "hostname": "test.dev.aegir.local",
+  "url": "http://test.dev.aegir.local",
+  "photobox": {
+    "urls": ["http://test.dev.aegir.local"]
+  },
+  "phantomas": {
+    "url": "http://test.dev.aegir.local"
+  },
+  "drush": {
+    "alias": "@test.dev.aegir.local"
+  }
+}
+
+```
 
 # Update
 
